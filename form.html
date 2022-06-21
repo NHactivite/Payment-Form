@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="type.css">
+    
+</head>
+
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="top" >payment form</h1>
+        <h2>User information</h2>
+        <hr>
+        <p class="special">* marks are required</p>
+        <p>Name *<input type="text"name="name"required placeholder="Type your name"></p>
+        <fieldset><legend>Gender *</legend>
+        <p>
+            male <input type="radio" name="gender" id=""required>female <input type="radio" name="gender" id=""required>
+        </p>
+    </fieldset>
+    <p>
+      Address *: <textarea name="address" id="address" cols="100" rows="5"required placeholder="Type address in details"></textarea>   
+    </p>
+    <p>
+        Email *:<input  type="email" name="email" id="email"required placeholder="hytfgukiuh@gmail.com">
+    </p>
+    <p>Pin code *: <input type="number" name="number" id="number"required placeholder="785667"></p>
+    <h2>Payment information</h2>
+    <p>
+        Card *:<select name="card_type" id="card_type"required>
+            <option value="" >---select a card type---</option>
+            <option value="visa">visa</option>
+            <option value="master card">master card</option>
+            <option value="SBI creadit card">SBI creadit card</option>
+        </select>
+    </p>
+    <p>
+        Card number *: <input type="number" name="num" id="num" required placeholder="1236578">
+    </p>
+    <p>
+        Expiration date *: <input type="date" name="date" id="date" required>
+    </p>
+    <p>CVV *:<input type="password"name="password" required id="password" placeholder="123"></p>
+    <p><input type="submit" value="Pay now"></p>
+</form>
+</div>
+
+</body>
+
+</html>
